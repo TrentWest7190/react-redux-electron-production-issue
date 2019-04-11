@@ -13,7 +13,6 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-quick-start": "^0.2.0",
     "react-redux": "6.0.1",
     "redux": "^4.0.1",
     "redux-starter-kit": "^0.4.3",
