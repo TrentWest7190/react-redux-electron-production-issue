@@ -1,0 +1,32 @@
+{
+  "name": "react-redux-electron-production-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-quick-start": "^0.2.0",
+    "react-redux": "6.0.1",
+    "redux": "^4.0.1",
+    "redux-starter-kit": "^0.4.3",
+    "source-map-support": "^0.5.12"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "electron": "^4.1.4",
+    "electron-builder": "^20.39.0",
+    "electron-webpack": "^2.6.2",
+    "webpack": "^4.29.6"
+  },
+  "build": {
+    "appId": "react.redux.issue.test"
+  }
+}
